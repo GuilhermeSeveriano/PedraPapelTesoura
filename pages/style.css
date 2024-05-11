@@ -1,0 +1,42 @@
+@font-face {
+    font-family: fontesite;
+    src: url(../Fonts/PoetsenOne-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: fontesite;
+}
+
+.cabecalho{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1em;
+    background-color: brown;
+    color: #fff;
+}
+
+.player img, .inimigo img{
+    height: 7em;
+    margin: 2em;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.cenario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.resultado{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    font-size: 1.5em;
+    color: blueviolet;
+   
+}

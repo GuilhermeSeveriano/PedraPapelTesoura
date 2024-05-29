@@ -14,7 +14,7 @@ function validarVitoria() {
   if (selectOpt == "Papel") {
     if (inimigoOpt == "Papel") {
       vencedor.innerHTML= "O Jogo Empatou";
-      vencedor.style.color = "blue";    
+      vencedor.style.color = "white";    
 
     } else if (inimigoOpt == "Pedra") {
       vencedor.innerHTML = "O Player Venceu";
@@ -35,7 +35,7 @@ function validarVitoria() {
 
     } else if (inimigoOpt == "Pedra") {
       vencedor.innerHTML = "O Jogo Empatou";
-      vencedor.style.color = "blue";
+      vencedor.style.color = "white";
 
     } else if (inimigoOpt == "Tesoura") {
       vencedor.innerHTML = "O Player Venceu";
@@ -54,7 +54,7 @@ function validarVitoria() {
 
     } else if (inimigoOpt == "Tesoura") {
       vencedor.innerHTML = "O Jogo Empatou";
-      vencedor.style.color = "blue";
+      vencedor.style.color = "white";
     }
   }
 }

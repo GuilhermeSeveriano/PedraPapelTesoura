@@ -40,11 +40,12 @@
 
 .resultado{
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding: 2em;
     font-size: 1.5em;
     color: blueviolet;
-    text-align: center;
+    
+    width: 100%;
    
 }
 
@@ -70,11 +71,11 @@
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 415px){
 
     .resultado{
         padding: 0.5em;
-        font-size: 1.2em ;
+        font-size: 0.7em ;
         
     }
 
@@ -86,11 +87,11 @@
 
 
     .inimigo h1{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .player h1{
-        font-size: 25px;
+        font-size: 20px;
     }
 
 }

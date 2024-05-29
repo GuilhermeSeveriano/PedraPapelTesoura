@@ -2,7 +2,11 @@ var elementos = document.querySelectorAll(".player div > img");
 var selectOpt = "";
 var inimigoOpt = "";
 
+
+alert("Para jogar selecione uma das opções ao lado esquerdo")
+
 function validarVitoria() {
+  
   
 
   let vencedor = document.querySelector(".resultado");

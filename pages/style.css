@@ -18,6 +18,11 @@
     color: #fff;
 }
 
+.player{
+    align-items: center;
+    text-align: center;
+}
+
 .player img, .inimigo img{
     height: 7em;
     margin: 2em;
@@ -29,6 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
 }
 
 
@@ -38,5 +44,53 @@
     padding: 2em;
     font-size: 1.5em;
     color: blueviolet;
+    text-align: center;
    
+}
+
+.inimigo{
+    text-align: center;
+}
+
+/* ------------------------------------Resp----------------- */
+
+@media screen and (max-width: 580px){
+
+    .resultado{
+        padding: 1em;
+        
+    }
+
+    .player img, .inimigo img{
+        height: 5em;
+        margin: 2em;
+      
+    }
+
+
+}
+
+@media screen and (max-width: 400px){
+
+    .resultado{
+        padding: 0.5em;
+        font-size: 1.2em ;
+        
+    }
+
+    .player img, .inimigo img{
+        height: 3em;
+        margin: 1em;
+      
+    }
+
+
+    .inimigo h1{
+        font-size: 25px;
+    }
+
+    .player h1{
+        font-size: 25px;
+    }
+
 }
